@@ -1,0 +1,441 @@
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(cpengine.o): in the function `IlcCPEngineI::IlcCPEngineI(IlcCPI*, IlcAllocator*, long, IlcCPOManagerI*)':
+cpengine.cpp:(.text+0x8ae6): reference to `CPXEclocksync' not defined
+/usr/bin/ld: cpengine.cpp:(.text+0x8dc4): reference to `CPXgeterrorstring' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(cpengine.o): in the function `IlcCPEngineI::~IlcCPEngineI()':
+cpengine.cpp:(.text+0x12a82): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(newea.o): in the function `IlcmEASettings::readSettings(IloSettings)':
+newea.cpp:(.text+0xe1bc): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe1dc): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe1f7): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe212): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe22a): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(newea.o):newea.cpp:(.text+0xe245): más referencias a `IloReportAbsItemI::getValue(char const*, long) const' not defined a continuación
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(newea.o): in the function `IlcmEASettings::readSettings(IloSettings)':
+newea.cpp:(.text+0xe27d): reference to `IloReportAbsItemI::getValue(char const*, char const*) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe29a): reference to `IloReportAbsItemI::getValue(char const*, char const*) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe2b5): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe2d0): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe2e8): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe306): reference to `IloReportAbsItemI::getValue(char const*, double) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe322): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe33a): reference to `IloReportAbsItemI::getValue(char const*, long) const' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(newea.o): in the function `IlcmEASettings::writeSettings(IloSettings) const':
+newea.cpp:(.text+0xe36e): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe384): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe39a): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe3b0): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe3c6): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(newea.o):newea.cpp:(.text+0xe3dc): más referencias a `IloReportAbsItemI::setValue(char const*, long)' not defined a continuación
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(newea.o): in the function `IlcmEASettings::writeSettings(IloSettings) const':
+newea.cpp:(.text+0xe408): reference to `IloReportAbsItemI::setValue(char const*, char const*)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe41e): reference to `IloReportAbsItemI::setValue(char const*, char const*)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe434): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe44a): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe460): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe477): reference to `IloReportAbsItemI::setValue(char const*, double)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe48d): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: newea.cpp:(.text+0xe4a9): reference to `IloReportAbsItemI::setValue(char const*, long)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(lstrans.o): in the function `IlcLocalSearch::LSTransformer::optimizeReformulationsWithCPLEX()':
+lstrans.cpp:(.text+0x3e18): reference to `CPXLcreateprob' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x3e38): reference to `CPXLchgobjsen' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x3f88): reference to `CPXLnewcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x3f9f): reference to `CPXLgetnumcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x446d): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x465f): reference to `CPXLnewcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x4680): reference to `CPXLgetnumcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x46d4): reference to `CPXLnewcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x46f3): reference to `CPXLgetnumcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x4a48): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x4dd5): reference to `CPXLaddindconstr' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x513c): reference to `CPXLnewcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x515d): reference to `CPXLgetnumcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5192): reference to `CPXLnewcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x51b1): reference to `CPXLgetnumcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x522f): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x528c): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5373): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x545b): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5628): reference to `CPXLnewcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5647): reference to `CPXLgetnumcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x56f9): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x577e): reference to `CPXLaddrows' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5925): reference to `CPXLchgbds' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5a78): reference to `CPXLaddindconstr' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5ab0): reference to `CPXLsetlongparam' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5acf): reference to `CPXLsetdblparam' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5b9c): reference to `CPXLsetlongparam' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5bce): reference to `CPXLsetlongparam' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5beb): reference to `CPXLgetnumcols' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5c2b): reference to `CPXLmipopt' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5c5b): reference to `CPXLsolninfo' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5c97): reference to `CPXLgetx' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x5cbb): reference to `CPXLgetobjval' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x612d): reference to `CPXLsetdblparam' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x61e2): reference to `CPXLfreeprob' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x651e): reference to `CPXLsetlongparam' not defined
+/usr/bin/ld: lstrans.cpp:(.text+0x6655): reference to `CPXLgeterrorstring' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilosolver.o): in the function `IlcWriteXMLModel(char const*, IloModel, IloIntVarArray)':
+ilosolver.cpp:(.text+0x97e3): reference to `IloXmlContext::IloXmlContext(IloEnv, char const*)' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x97fa): reference to `IloXmlContext::writeModel(IloModel, char const*) const' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x9817): reference to `IloXmlContext::end()' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x984e): reference to `IloXmlContext::IloXmlContext(IloEnv, char const*)' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x9867): reference to `IloXmlContext::writeModel(IloModel, char const*) const' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilosolver.o): in the function `IlcWriteXMLModel(char const*, long, IloModel, IloIntVarArray)':
+ilosolver.cpp:(.text+0x9927): reference to `IloXmlContext::IloXmlContext(IloEnv, char const*)' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x993f): reference to `IloXmlContext::writeModel(IloModel, char const*) const' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x995c): reference to `IloXmlContext::end()' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x9996): reference to `IloXmlContext::IloXmlContext(IloEnv, char const*)' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x99b0): reference to `IloXmlContext::writeModel(IloModel, char const*) const' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilosolver.o): in the function `IlcReadXMLModel(char const*, IloModel, IloIntVarArray&)':
+ilosolver.cpp:(.text+0x9a04): reference to `IloXmlContext::IloXmlContext(IloEnv, char const*)' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x9a33): reference to `IloXmlContext::readModel(IloModel, std::istream&) const' not defined
+/usr/bin/ld: ilosolver.cpp:(.text+0x9b2c): reference to `IloXmlContext::readModel(IloModel, char const*) const' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(cpi.o): in the function `IlcCPI::IlcCPI(IlcAllocator*, IlcModelInterface*, IlcProfilerInterface*, IlcCatalog const*)':
+cpi.cpp:(.text+0xce2e): reference to `CPXEilmtStart' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(cpi.o): in the function `IlcCPI::~IlcCPI()':
+cpi.cpp:(.text+0x113c9): reference to `CPXEilmtStop' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o): in the function `IloCPOXmlInfo_ToBranch::writeXml(IloXmlWriter, IloCPOToBranchI*, IloXmlElement*)':
+extractables.cpp:(.text+0x79e): reference to `IloXmlTagDef::Vars' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x7b1): reference to `IloXmlWriter::createElement(char const*)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x7d6): reference to `IloXmlInfo::writeVarArray(IloXmlWriter, IloXmlElement*, IloIntVarArray)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x80a): reference to `IloXmlWriter::addSubElement(IloXmlElement*, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o): in the function `IloCPOXmlInfo_ToBranch::writeXml(IloXmlWriter, IloExtractableI const*, IloXmlElement*)':
+extractables.cpp:(.text+0x130c): reference to `IloXmlTagDef::Vars' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x131c): reference to `IloXmlWriter::createElement(char const*)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1342): reference to `IloXmlInfo::writeVarArray(IloXmlWriter, IloXmlElement*, IloIntVarArray)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x138a): reference to `IloXmlWriter::addSubElement(IloXmlElement*, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o): in the function `IloCPOSolverExtraXMLPlugInAddon::init(IloPlugIn*)':
+extractables.cpp:(.text+0x17c8): reference to `IloXmlContext::getImpl() const' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1815): reference to `IloXmlInfo::IloXmlInfo(IloXmlContextI*, char const*)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1837): reference to `IloXmlContext::registerXML(long, IloXmlInfo*) const' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o): in the function `IloCPOXmlInfo_ToBranch::readXml(IloXmlReader, IloXmlElement*)':
+extractables.cpp:(.text+0x1a67): reference to `IloXmlTagDef::Vars' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1a7f): reference to `IloXmlReader::findElementByTag(IloXmlElement*, char const*)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1a94): reference to `IloXmlInfo::getRefInChild(IloXmlReader, IloXmlElement*, long&)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1aaa): reference to `IloXmlReader::getObjectById(long)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1ab5): reference to `IloXmlReader::getEnv()' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1abf): reference to `IloXmlAttributeDef::Name' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1ad1): reference to `IloXmlReader::readAttribute(IloXmlElement*, char const*)' not defined
+/usr/bin/ld: extractables.cpp:(.text+0x1adc): reference to `IloXmlReader::getEnv()' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o): in the function `IloCPOXmlInfo_ToBranch::IloCPOXmlInfo_ToBranch(IloXmlContextI*)':
+extractables.cpp:(.text+0x55d7): reference to `IloXmlInfo::IloXmlInfo(IloXmlContextI*, char const*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o): in the function `IloCPOXmlInfo_ToBranch::~IloCPOXmlInfo_ToBranch()':
+extractables.cpp:(.text._ZN22IloCPOXmlInfo_ToBranchD2Ev[_ZN22IloCPOXmlInfo_ToBranchD5Ev]+0xb): reference to `IloXmlInfo::~IloXmlInfo()' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o): in the function `IloCPOXmlInfo_ToBranch::~IloCPOXmlInfo_ToBranch()':
+extractables.cpp:(.text._ZN22IloCPOXmlInfo_ToBranchD0Ev[_ZN22IloCPOXmlInfo_ToBranchD5Ev]+0xf): reference to `IloXmlInfo::~IloXmlInfo()' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTI22IloCPOXmlInfo_ToBranch[_ZTI22IloCPOXmlInfo_ToBranch]+0x10): reference to `typeinfo for IloXmlInfo' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x28): reference to `IloXmlInfo::getTagElement(IloXmlWriter, IloRtti const*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x38): reference to `IloXmlInfo::write(IloXmlWriter, IloRtti const*, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x40): reference to `IloXmlInfo::writeRef(IloXmlWriter, IloRtti const*, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x48): reference to `IloXmlInfo::writeXmlRef(IloXmlWriter, IloExtractableI const*, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x50): reference to `IloXmlInfo::read(IloXmlReader, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x60): reference to `IloXmlInfo::readFromXml(IloXmlReader, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x68): reference to `IloXmlInfo::readFrom(IloXmlReader, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x70): reference to `IloXmlInfo::checkSubElement(IloXmlReader, IloXmlElement*, IloRtti*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x78): reference to `IloXmlInfo::checkSubElement(IloXmlReader, IloXmlElement*, IloExtractableI*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x80): reference to `IloXmlInfo::readXmlArray(IloXmlReader, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x88): reference to `IloXmlInfo::readArrayFromXml(IloXmlReader, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x90): reference to `IloXmlInfo::checkSubElement(IloXmlReader, IloXmlElement*, IloExtractableArray*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0x98): reference to `IloXmlInfo::write(IloXmlWriter, IloExtractableArray const*, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0xa0): reference to `IloXmlInfo::readSolution(IloXmlReader, IloSolution, IloXmlElement*)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(extractables.o):(.data.rel.ro._ZTV22IloCPOXmlInfo_ToBranch[_ZTV22IloCPOXmlInfo_ToBranch]+0xa8): reference to `IloXmlInfo::writeSolution(IloXmlWriter, IloSolution, IloExtractable)' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(laextract.o): in the function `IloLaCPOExtractorSet::registerAll()':
+laextract.cpp:(.text+0x5011): reference to `IloIntTupleSetI::GetTypeIndex()' not defined
+/usr/bin/ld: laextract.cpp:(.text+0x5053): reference to `IloIntTableSetConstraintI::GetTypeIndex()' not defined
+/usr/bin/ld: laextract.cpp:(.text+0x5095): reference to `IloIntTableElementConstraint2I::GetTypeIndex()' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `callbackCheckIterationLimit(cpxenv const*, void*, int, void*)':
+ilcslpi.cpp:(.text+0xe9): reference to `CPXgetcallbackinfo' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_64c7d68397ac38450ee3c52173785c9c(IlcCPEngineI*, IlcAllocator*, long)':
+ilcslpi.cpp:(.text+0x2c7): reference to `CPXsetlpcallbackfunc' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::endCPLEX()':
+ilcslpi.cpp:(.text+0x36d): reference to `CPXfreeprob' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_84ea1fb6ba27aeaabd042bcd43994313()':
+ilcslpi.cpp:(.text+0x3b0): reference to `CPXfreeprob' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_bbb4cdffcfb21aadeecbcae702d97bd4(long)':
+ilcslpi.cpp:(.text+0x4f9): reference to `CPXfreeprob' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5ec): reference to `CPXcreateprob' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x613): reference to `CPXsetintparam' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x635): reference to `CPXsetintparam' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x64e): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x667): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x6bb): reference to `CPXsetintparam' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x6d4): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x6ed): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_a021bbbaa64c7e4317a0c2d202422560(void*, char const*, char const*)':
+ilcslpi.cpp:(.text+0x8c1): reference to `CPXchgname' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_2c776827d75edc57a6b4609848253d90(double, double*, void**, double)':
+ilcslpi.cpp:(.text+0x9f5): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0xa60): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_2c776827d75edc57a6b4609848253d90(double, double*, void**, void*)':
+ilcslpi.cpp:(.text+0xbb6): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0xc2d): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0xc66): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_f443a933ab8fb0a97b2c0e7569d1b3ea(void*, void*, double, double, double)':
+ilcslpi.cpp:(.text+0xd7e): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0xda1): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0xdc7): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_10b76024a2b9970f91c0427c610e2542(void*, void*, void*, double, double, double, double)':
+ilcslpi.cpp:(.text+0xfb4): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0xfd6): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0xffc): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1022): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, void**, void*)':
+ilcslpi.cpp:(.text+0x10e3): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x115e): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1197): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, void**, double, void*)':
+ilcslpi.cpp:(.text+0x1296): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x130e): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x134c): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, double*, void**, double, void*)':
+ilcslpi.cpp:(.text+0x14c6): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x153d): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x157b): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, double*, void**, double, void*, double)':
+ilcslpi.cpp:(.text+0x170f): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1785): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x17c3): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::declareLEqConstraint(double, void**, double, void*, double)':
+ilcslpi.cpp:(.text+0x1890): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1906): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1944): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::declareLEqConstraint(double, double*, void**, double, void*, double)':
+ilcslpi.cpp:(.text+0x1b2f): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1ba5): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1be3): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::declareGEqConstraint(double, void**, double, void*, double)':
+ilcslpi.cpp:(.text+0x1cb0): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1d26): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1d64): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::declareGEqConstraint(double, double*, void**, double, void*, double)':
+ilcslpi.cpp:(.text+0x1f4f): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x1fc5): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2003): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::declareEqConstraintHandleDuplicates(double, double*, void**, void*)':
+ilcslpi.cpp:(.text+0x214a): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x21c9): reference to `CPXgetcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x21f6): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2233): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::declareEqConstraintHandleDuplicatesWithSort(double, double*, void**, void*)':
+ilcslpi.cpp:(.text+0x2392): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x24e0): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2572): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2595): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, double*, void**, void*)':
+ilcslpi.cpp:(.text+0x2796): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x280d): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2846): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, double*, void**, double)':
+ilcslpi.cpp:(.text+0x2975): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x29e0): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, void**, double)':
+ilcslpi.cpp:(.text+0x2ab3): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2b22): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_ded37e422e0ad96244ce3e43f247da2a(void*, void*, double, double, double)':
+ilcslpi.cpp:(.text+0x2c3e): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2c61): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2c87): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_f1beae3b624c11605f44ba8db47fe26a(void*, void*, void*, double, double, double, double)':
+ilcslpi.cpp:(.text+0x2e74): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2e96): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2ebc): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x2ee2): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_0aa51721dd9a9140bfe4a32288520096(void*, void*, void*, double, void*)':
+ilcslpi.cpp:(.text+0x305d): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3082): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x30a6): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x30ca): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x30f0): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_0aa51721dd9a9140bfe4a32288520096(void*, void*, double, double, void*)':
+ilcslpi.cpp:(.text+0x32b5): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x32da): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x32fe): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3324): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_0aa51721dd9a9140bfe4a32288520096(void*, void*, double, double, double, void*)':
+ilcslpi.cpp:(.text+0x343d): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x345f): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3483): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x34a9): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_8ab0331c7055c4c8571af6db205595a3(void*, void*, void*, double, void*)':
+ilcslpi.cpp:(.text+0x367d): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x36a2): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x36c6): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x36ea): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3710): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_b9bd34269e285012a3c18edec15c7781(void*, void*, void*, double, void*, double, void*)':
+ilcslpi.cpp:(.text+0x38ed): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3912): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3936): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x395a): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x397f): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x39a5): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_b9bd34269e285012a3c18edec15c7781(void*, void*, double, double, void*, double, void*)':
+ilcslpi.cpp:(.text+0x3b8d): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3bb2): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3bd6): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3bfb): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3c21): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_dc7fca214346bbb9eeb96a2fd6334b09(void*, void*, double, double, double)':
+ilcslpi.cpp:(.text+0x3e25): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3e47): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3e6b): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3ebf): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3ee1): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x3f05): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_12c71ad7f1acf6df6a4509f6c4985697(double, double, double, double, double, void*, void*)':
+ilcslpi.cpp:(.text+0x4097): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x40bd): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x40eb): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_9912a09d88d9c9f715ff8101520c87d3(double, double, double, double, double, void*, void*)':
+ilcslpi.cpp:(.text+0x431f): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4345): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x436b): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_12c71ad7f1acf6df6a4509f6c4985697(double, double, double, double, void*, void*)':
+ilcslpi.cpp:(.text+0x4571): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4597): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x45c0): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_9912a09d88d9c9f715ff8101520c87d3(double, double, double, double, void*, void*)':
+ilcslpi.cpp:(.text+0x47c9): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x47ef): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4810): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::checkRowLimit()':
+ilcslpi.cpp:(.text+0x4a63): reference to `CPXgetnumrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4a8e): reference to `CPXfreeprob' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::checkRowLimit(long)':
+ilcslpi.cpp:(.text+0x4ae4): reference to `CPXfreeprob' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_c38c0ee7a2625922ec095a19e69345ea()':
+ilcslpi.cpp:(.text+0x4b8b): reference to `CPXgetdettime' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_d23c2eeb661d1446411a859fec40fd5d()':
+ilcslpi.cpp:(.text+0x4bee): reference to `CPXgetnumrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4c4e): reference to `CPXpresolve' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4c6f): reference to `CPXgetredlp' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4c9c): reference to `CPXgetobjoffset' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4caf): reference to `CPXchgprobtype' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4cc0): reference to `CPXlpopt' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4cd5): reference to `CPXgetstat' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4d16): reference to `CPXgetnumcols' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4d55): reference to `CPXgetx' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4d72): reference to `CPXuncrushx' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4d8a): reference to `CPXgetobjval' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4e01): reference to `CPXlpopt' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4e16): reference to `CPXgetstat' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4e34): reference to `CPXgetdblquality' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4e8e): reference to `CPXgetnumcols' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4eb1): reference to `CPXgetx' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4ed0): reference to `CPXgetdj' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4eea): reference to `CPXgetobjval' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4fb1): reference to `CPXchgprobtype' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4fc4): reference to `CPXlpopt' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4fd9): reference to `CPXgetstat' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4ff7): reference to `CPXgetnumcols' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5017): reference to `CPXgetx' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_f82517f81d74cdfb2bea1c6993ba2105() const':
+ilcslpi.cpp:(.text+0x50e3): reference to `CPXgetnumrows' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_2bf7771a4cdbd186a740945d8e7d3cdb() const':
+ilcslpi.cpp:(.text+0x5103): reference to `CPXgetnumcols' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_c9fcc470dfd74e02fdcbeb0a6a548f31() const':
+ilcslpi.cpp:(.text+0x5123): reference to `CPXgetnumnz' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_8ac18e3f98218e6b9fc31fa42ff11058() const':
+ilcslpi.cpp:(.text+0x5143): reference to `CPXgetitcnt' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::getCurrDetTime() const':
+ilcslpi.cpp:(.text+0x5187): reference to `CPXgetdettime' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_61ec3be3eb2b591e8665fba55c11fb89(double, void**, double, void*, double)':
+ilcslpi.cpp:(.text+0x530b): reference to `CPXnewrows' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x537a): reference to `CPXchgcoef' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x53b8): reference to `CPXchgcoef' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::setVariableRange(void*, double, double)':
+ilcslpi.cpp:(.text+0x5527): reference to `CPXnewcols' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x55bc): reference to `CPXgetlb' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x560a): reference to `CPXchgbds' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5649): reference to `CPXgetub' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5690): reference to `CPXchgbds' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_77c086150141ddaa4a7f8c85980c5f1a(void*, double, double, char const*)':
+ilcslpi.cpp:(.text+0x58ca): reference to `CPXnewcols' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_8fc720be18ca0aa255f173885f2a1e8b(void*, double, double, long, char const*)':
+ilcslpi.cpp:(.text+0x59ad): reference to `CPXchgobj' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5a0d): reference to `CPXchgobj' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5a2a): reference to `CPXchgobjsen' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5b43): reference to `CPXnewcols' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_c219ffb8444d0f14e2759ad67f769d17(void*, char const*)':
+ilcslpi.cpp:(.text+0x5cf0): reference to `CPXnewcols' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::setVariableValue(void*, double)':
+ilcslpi.cpp:(.text+0x5e2b): reference to `CPXnewcols' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5e7e): reference to `CPXchgbds' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x5ea6): reference to `CPXchgbds' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::setITLimit(long)':
+ilcslpi.cpp:(.text+0x4b3b): reference to `CPXsetlpcallbackfunc' not defined
+/usr/bin/ld: ilcslpi.cpp:(.text+0x4b48): reference to `CPXsetlpcallbackfunc' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_f6d551f338b323a3a2f293f65a757765()':
+ilcslpi.cpp:(.text+0x4b5c): reference to `CPXgetdettime' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(ilcslpi.o): in the function `_64c7d68397ac38450ee3c52173785c9c::_0d8c7221e3ad477e989ded7b515958bd(char const*)':
+ilcslpi.cpp:(.text+0x51c4): reference to `CPXwriteprob' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplexPeriodicCallback(cpxenv const*, void*, int, void*)':
+linoptcplex.cpp:(.text+0x36): reference to `CPXgetcallbackinfo' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x72): reference to `CPXgetcallbackinfo' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x97): reference to `CPXgetcallbackinfo' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0xf4): reference to `CPXgetcallbackinfo' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::~IlcLinOptCplex()':
+linoptcplex.cpp:(.text+0xa84): reference to `CPXfreeprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0xa9e): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::release()':
+linoptcplex.cpp:(.text+0xf04): reference to `CPXfreeprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0xf1e): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::initCplex()':
+linoptcplex.cpp:(.text+0xfc2): reference to `CPXopenCPLEX' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0xfdd): reference to `CPXcreateprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0xff3): reference to `CPXsetterminate' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x101a): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::releaseCplex()':
+linoptcplex.cpp:(.text+0x1044): reference to `CPXfreeprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x105e): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::pushModel(IlcLaModel*)':
+linoptcplex.cpp:(.text+0x3cec): reference to `CPXcopylp' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x3d0c): reference to `CPXcopyctype' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x3e4c): reference to `CPXchgcolname' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x3e68): reference to `CPXfreeprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x3e82): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::convert(IlcLaModel*)':
+linoptcplex.cpp:(.text+0x4ec8): reference to `CPXfreeprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x4ee0): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::newIncumbent()':
+linoptcplex.cpp:(.text+0x528d): reference to `CPXgetmiprelgap' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x52ab): reference to `CPXgetobjval' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x52da): reference to `CPXgetx' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::storeIncumbent()':
+linoptcplex.cpp:(.text+0x5565): reference to `CPXgetmiprelgap' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5583): reference to `CPXgetobjval' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::parameterConfiguration(long, double)':
+linoptcplex.cpp:(.text+0x5a66): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5a77): reference to `CPXsetlongparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5a99): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5abb): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::interpretMipStatus()':
+linoptcplex.cpp:(.text+0x5aed): reference to `CPXgetstat' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::solve(long, long, double)':
+linoptcplex.cpp:(.text+0x5c26): reference to `CPXsetincumbentcallbackfunc' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5c39): reference to `CPXsetinfocallbackfunc' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5c5d): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5c6e): reference to `CPXsetlongparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5c90): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5cb2): reference to `CPXsetdblparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5cc2): reference to `CPXsetintparam' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5cd8): reference to `CPXwriteprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5ce5): reference to `CPXmipopt' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x5d03): reference to `CPXgetmiprelgap' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::IlcLinOptCplex(IlcAllocator*, IlcCPI*, IlcLinOptEngineI*)':
+linoptcplex.cpp:(.text+0x623d): reference to `CPXopenCPLEX' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x6258): reference to `CPXcreateprob' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x626e): reference to `CPXsetterminate' not defined
+/usr/bin/ld: linoptcplex.cpp:(.text+0x629a): reference to `CPXcloseCPLEX' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::exportModel(char const*)':
+linoptcplex.cpp:(.text+0x54fe): reference to `CPXwriteprob' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::storeGap()':
+linoptcplex.cpp:(.text+0x552a): reference to `CPXgetmiprelgap' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::storeIncumbent()':
+linoptcplex.cpp:(.text+0x55ba): reference to `CPXgetx' not defined
+/usr/bin/ld: /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/lib/x86-64_linux/static_pic/libcp.a(linoptcplex.o): in the function `IlcLinOptCplex::parameterConfiguration(long, double)':
+linoptcplex.cpp:(.text+0x5ad1): reference to `CPXsetintparam' not defined
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/main.dir/build.make:102: main] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
